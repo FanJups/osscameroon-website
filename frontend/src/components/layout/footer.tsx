@@ -10,6 +10,7 @@ import englishFlagIcon from "../../assets/icons/flags/en.svg";
 import twitterIcon from "../../assets/icons/twitter-30-px.svg";
 import telegramIcon from "../../assets/icons/telegram-30-px.svg";
 import githubIcon from "../../assets/icons/github-30-px.svg";
+import linkedInIcon from "../../assets/icons/linkedin-light.svg";
 import { LocaleSwitcher } from "../localeProvider";
 import DarkModeSwitch from "components/utils/ThemeSwitcherBtn";
 
@@ -88,6 +89,11 @@ const Footer = () => {
               <li>
                 <a href="https://t.me/joinchat/UpKZh_T3W02LsGvQ" rel="noreferrer" target="_blank">
                   <img alt="telegram Logo" src={telegramIcon} />{" "}
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/company/osscameroon" rel="noreferrer" target="_blank">
+                  <img alt="LinkedIn logo" src={linkedInIcon} />
                 </a>
               </li>
             </ul>
